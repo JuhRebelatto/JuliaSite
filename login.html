@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang='pt-BR'>
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>login</title>
+
+<!--<link rel="stylesheet" href="indexlog.css">-->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body class="p-3 mb-2 bg-dark text-white"></div>
+
+<header class="container-fluid row">
+
+
+<section>
+<a href="index.html"><img class="pagi rounded-circle" src='img/pi.jpg'height="40" width="40"></a>
+</section>
+
+
+<!--<section>
+<link rel="stylesheet" href="indexlog.css">
+</section>-->
+
+
+<!--<section class="container mt-5">
+<h1><img src='img/login.jpg'height="150" width="150" class="rounded float-left col-2" ></a></h1>
+</section>-->
+
+
+</header>
+
+<main>
+
+<form action="/login.php" method="post">
+
+<P class="mt-5 col-5">
+<label for="e">Nome completo:</label>
+<input type="text" name="nome" id="nome" required pattern="[aA-zZ\s]+$">
+</p>
+
+<p class="mt-5 col-5">
+<label for="e">indique sua idade</label>
+<input type="number" name="idade" id="idade" pattern="[0-9]+$">
+</p>
+
+<p class="mt-5 col-5">
+<label for="e">indique seu telefone</label>
+<input type="tel" name="telefone" id="telefone" maxlength="11" pattern="[0-9]+$">
+</p>
+
+<p class="mt-5 col-5">
+<label for="e">indique seu email:</label>
+<input type="email" name="e" id="e">
+</p>
+
+<p class="mt-5 col-5">
+<label for="e">indique sua senha:</label>
+<input type="password" name="s" id="s">
+</P>
+
+<p class="mt-5 col-5">
+<label for="texto>"> Quais tipos de filme vc gosta de assistir ?</label>
+</p>
+
+<p class="mt-5 col-5">
+<textarea name="texto" id="texto" ></textarea>
+<input type="submit" value="entrar">
+
+</form>
+</p>
+
+<form action="/login.php" method="post">
+<p class="mt-5 col-5">
+<input type="button" valus="entrar sem conta">
+</p>
+
+<p class="mt-5 col-5 text-danger">O login não é obrigatório.</p>
+
+</form>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</html>
+</body>
